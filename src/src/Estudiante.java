@@ -54,9 +54,9 @@ public class Estudiante {
     public String toString() {
         String str = this.getMatricula() + " : " + this.getNombre() + " : " + this.getCarrera() + "\nAsignaturas:\n";
 
-//        for(Asignatura a : asignaturas) {
-//            str += "\t" + a.getCodigo() + " : " + a.getNombre() + "\n";
-//        }
+        for(Asignatura a : asignaturas) {
+            str += "\t" + a.getCodigo() + " : " + a.getNombre() + "\n";
+        }
 
         return str;
     }
