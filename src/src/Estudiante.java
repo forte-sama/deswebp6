@@ -14,11 +14,6 @@ public class Estudiante {
 
 
     public Estudiante() {
-        Asignatura a1 = new Asignatura();
-        a1.setCodigo("ISC-434");
-        a1.setNombre("Ing Soft");
-
-//        asignaturas.add(a1);
         asignaturas = new ArrayList<>();
     }
 
